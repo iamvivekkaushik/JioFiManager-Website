@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Laila|Montserrat');
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding: 0% 1%;
+    margin: 0%;
+    font-family: 'Bitter',sans-serif;
+}
+header{
+  margin-top: 10px;
+  width: 95%;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    overflow: hidden;
+    
+}
+  
+li {
+    float: left;
+    font-weight: 500;
+}
+  
+li a {
+    display: block;
+    color: rgb(104, 104, 104);
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+  
+  
+li a:hover {
+    color: rgb(31, 31, 31);
+}
+#jiofinav{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+  /* margin-left: 5%; */
+}
+#download a{
+  border: 1px solid red;
+  background-color: red;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.jiofi1 , .jiofi2{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  margin-top: 15%;
+}
+
+.jiofi1 div{
+  margin-left: 10%;
+  flex-basis: 40%;
+
+
+}
+.jiofi1 img{
+  max-width: 60%;
+  margin-left: 10%;
+}
+.jiofi1 p{
+  font-size: 250%;
+  margin-left: 10%;
+  margin-top: 20%;
+  
+}
+
+.howItWorks{
+  /* width: 600px; */
+  display: flex;
+  justify-content:space-around;
+ 
+  
+}
+
+
+h2{ 
+  margin-top: 10%;
+  text-align: center;
+  font-family:'Bitter',sans-serif; 
+  font-size: 200%;
+}
+p{
+  font-family: 'Laila', Helvetica, sans-serif
+} 
+.howItWorks img{
+  margin-top: 15%;
+  height: 60%;
+  border: 1px solid #686868;
+  border-radius: 10px;
+
+}
+.flex-item p{
+  text-align: center;
+
+}
+#jack{ text-align: center;}
+footer{
+  width: 100%;
+  height: 50px;
+  /* background-color: aquamarine; */
+}
+footer div{
+  
+  text-align: center;
+  padding: 0%;
+}
+#contact{
+  margin-top: -10%;
+  padding: 0%;
+}
+h2 {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  grid-gap: 20px;
+}
+
+h2:before,
+h2:after {
+  content: '';
+  border-top: 1px solid #8f8f8f;
+}

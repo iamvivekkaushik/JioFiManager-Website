@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JioFi Manager! Extensive control of your device..</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/ico" href="images/icon.ico" />
+    <link rel="stylesheet" href="stylesheet1.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  </head>
+
+  <body>
+    
+    <header>
+      <nav>
+        <ul>
+          <li id="jiofinav" >JioFi Manager</li>
+          <li id='download' style="float:right;"><a href="https://play.google.com/store/apps/details?id=com.vivek.jiofimanager&hl=en">Download</a></li>
+          <li style="float:right;"><a href="#contact">Contact</a></li>
+          <li style="float:right; "><a href="#howItWorks">How It Works!</a></li>
+        </ul>
+      </nav>
+    </header>
+ 
+    <div class=" jiofi1"  >
+      <div class="showcase-left">
+          <p >JioFi Manager <br> Complete device Control </p>
+      </div>
+      <div class="showcase-right">
+          <img id="lyf-jiofi-3" src="images/lyf-jiofi-3.png">        
+      </div>
+      
+      
+    </div>
+
+  
+
+   
+    <div class="jiofi1">
+      <div class="info-left">
+          <img id="photo2" src="images/reliance-jiofi-3-4g-personal-hotspot-router_1494830930.jpeg">
+      </div>
+      <div class="showcase-right">
+          <p>One app meets <br>All your needs.</p>
+      </div>     
+    </div>
+
+
+<h2 id="howItWorks"> How it Works </h2>
+
+<div  class="howItWorks">
+    
+  <div class="info-left" class="flex-item"><img  src="images/deviceinfo.webp" ></div>
+  <div class="info-left" class="flex-item"><img src="images/connectdevies.webp"></div>
+  <div class="showcase-right" class="flex-item"><img src="images/wifisetting.webp"></div>
+  <div class="showcase-right" class="flex-item"><img src="images/webpassword.webp"></div>
+</div>
+
+<h2 id="contact">Contact</h2>
+ <footer>
+   <div >
+     <a style="text-decoration:none;" href="https://www.instagram.com/iamvivekkaushik/"><i  style="font-size:250%;margin-right:5%" class="fab fa-instagram"></i></a>
+     <a style="text-decoration:none;" href="https://twitter.com/vivek_kaushik_"><i style="font-size:250%" class="fab fa-twitter-square"></i> </a>
+     <p style="text-align:center; margin-bottom: 5px; font-family: 'Bitter',sans-serif;">JioFi Manager copyright &copy; 2019</p>
+   </div>
+
+ </footer>
+ <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+
+ <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar',{
+        duration:2000,
+        origin:'bottom'
+    });
+    sr.reveal('.showcase-left',{
+        duration:2000,
+        origin:'top',
+        distance:'300px'
+    });
+    sr.reveal('.showcase-right',{
+        duration:2000,
+        origin:'right',
+        distance:'300px'
+    });
+    sr.reveal('.showcase-btn',{
+        duration:2000,
+        delay:1000,
+        origin:'bottom'
+
+    });
+    sr.reveal('.text div',{
+        duration:2000,
+        origin:'bottom'
+
+    });
+    sr.reveal('.info-left',{
+        duration:2000,
+        origin:'left',
+        distance:'300px',
+        viewFactor:0.2
+    });
+    sr.reveal('.info-right',{
+        duration:2000,
+        origin:'right',
+        distance:'300px',
+        viewFactor:0.2
+    });
+    sr.reveal('.contact div',{
+        duration:2000,
+        origin:'bottom',
+        distance:'300px',
+        viewFactor:0.2
+    });
+</script>
+<script>
+    //smooth scrolling
+    $(function() {
+$('a[href*="#"]:not([href="#"])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  if (target.length) {
+    $('html,body').animate({
+      scrollTop: target.offset().top
+    }, 1000);
+    return false;
+  }
+}
+});
+});
+</script>
+
+
+  </body>
+</html>
